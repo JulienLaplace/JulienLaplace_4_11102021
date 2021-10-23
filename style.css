@@ -19,7 +19,9 @@ a:hover {
 }
 
 
+
 /* SECTION SERVICE */
+
 .services-1 {
     font-family: "Open Sans";
     font-size: 22px;
@@ -40,6 +42,19 @@ a:hover {
 
 .services-3{
     color: black;
+}
+
+/* PORTFOLIO */
+
+.portfolio {
+    font-family: "Open Sans";
+    font-size: 22px;
+}
+
+/* PADDING */
+
+.pad-30 {
+    padding: 30px;
 }
 
 #page-loading-blocs-notifaction {
@@ -102,21 +117,6 @@ a:hover {
 
 .bg-t-edge {
     background: top no-repeat;
-}
-
-.bloc-bg-texture::before {
-    content: "";
-    background-size: 2px 2px;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-
-.texture-paper::before {
-    background: url("img/texture-paper.png");
-    background-size: 280px 280px;
 }
 
 .b-parallax {
@@ -675,7 +675,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: black!important;
 }
 
 .container {
@@ -701,7 +701,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -726,6 +726,10 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 h2 {
@@ -768,8 +772,7 @@ h4 {
 }
 
 .portfolio-row {
-    margin-bottom: 44px;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .avatar {
@@ -777,7 +780,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(23, 21, 14, 0.7);;
     padding: 40px 40px 40px 40px;
 }
 
@@ -799,7 +802,7 @@ h4 {
 }
 
 .tc-white {
-    color: #e6c0af!important;
+    color: #ffffff!important;
 }
 
 .btn-atomic-tangerine {
@@ -870,12 +873,15 @@ h4 {
     .nav-center.navbar .nav {
         max-width: 100%
     }
+
+    
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
+    
 }
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
@@ -911,9 +917,19 @@ h4 {
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
     }
+    .portfolio-thumb {
+        margin-bottom: 24px;
+        padding-left: 30px;
+        padding-right: 30px;    
+    }
 }
 
 @media (max-width: 767px) {
+
+    .white-text {
+        color: white !important;;
+    }
+
     .page-container {
         overflow-x: hidden;
         position: relative;
@@ -938,8 +954,8 @@ h4 {
         float: none!important;
     }
     .navbar.row {
-        margin-left: 0;
-        margin-right: 0;
+        margin-left: -1px;
+        margin-right: -1px;
     }
     .site-navigation {
         position: inherit;
@@ -950,13 +966,13 @@ h4 {
     .nav > li {
         margin-top: 0;
         border-bottom: 1px solid rgba(0, 0, 0, .1);
-        background: rgba(0, 0, 0, .05);
+        background: #F3976C;
         text-align: left;
         padding-left: 15px;
         width: 100%;
     }
     .nav > li:hover {
-        background: rgba(0, 0, 0, .08);
+        background: #f3976cb7;
     }
     .dropdown .dropdown a .caret {
         float: none;
@@ -1035,7 +1051,7 @@ h4 {
         margin-top: 30px;
     }
     form {
-        padding: 5px;
+        padding: 30px;
     }
     .close-lightbox {
         display: inline-block;
@@ -1050,12 +1066,19 @@ h4 {
         width: 180px;
         height: 320px;
     }
+    
 }
 
 @media (max-width: 400px) {
     .bloc {
         padding-left: 0;
         padding-right: 0;
+    }
+
+    .portfolio-thumb {
+        margin-bottom: 24px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 }
 
