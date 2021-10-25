@@ -11,7 +11,7 @@ La fondatrice de l’entreprise, cherche une solution pour faire repartir l’ac
 <h2> Objectifs</h2>
 - Analyse de l’état actuel de SEO du site fourni : indiquer les parties du site qui ne sont pas optimisées pour le SEO et/ou qui ne sont pas à jour en termes d’accessibilité, tout en ajoutant la bonne pratique à mettre en place pour chaque partie du site qui n’est pas optimisée.
 
-- Sélectionner 10 recommandations à mettre en place pour améliorer le site. Il doit au moins y en avoir une concernant l'accessibilité, et une concernant les performances, le reste devant se concentrer essentiellement sur le SEO.
+Sélectionner 10 recommandations à mettre en place pour améliorer le site. Il doit au moins y en avoir une concernant l'accessibilité, et une concernant les performances, le reste devant se concentrer essentiellement sur le SEO.
 
 - Amélioration du SEO du site : appliquer les 10 recommandations. 
 
